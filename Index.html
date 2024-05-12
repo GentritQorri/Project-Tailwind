@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIB Petrol</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <style>
+        li:hover {
+            border-bottom: 2px solid red
+        }
+    </style>
+</head>
+<body>  
+
+    <!-- HEADER -->
+    <!-- <header class="h-24 bg-white flex items-center"> -->
+        <header class="h-auto xl:h-24 bg-white flex items-center"> 
+        
+        <div class="container px-6 xl:px-0 mx-auto flex flex-col xl:flex-row justify-between items-center">           
+            <div class="w-full h-24 xl:h-auto flex justify-between items-center">
+                <img src="./assets/img/HIB-Logo.png" class="h-14" alt="HIB PETROL" />
+                <label for="menu-toggler">
+                    <img src="./assets/img/menu.png" alt="Menu Toggler Icon" id="menu-toggler-icon" class="w-8 block xl:hidden" />
+                </label>
+            </div>
+            <input type="checkbox" id="menu-toggler" class="peer block xl:hidden w-8 outline-none border-none appearance-none" />
+            <nav class="w-full xl:w-3/5 py-6 xl:py-0 hidden xl:block peer-checked:block">
+                <ul class="space-y-4 xl:space-y-0 flex flex-col xl:flex-row justify-between items-start xl:items-center">
+                    <li><a href="#header" class="brand-link">BALLINA</a></li> 
+                    <li class="group relative"><a href="#courses" class="brand-link">RRETH NESH<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="hidden group-hover:block relative xl:absolute w-80 bg-transparent xl:bg-light-gray border-0 xl:border rounded-md border-gray-300">
+                            <li class="hover:bg-brand-pink-light p-3"><a href="#" class="brand-link">HIB PETROL</a></li>
+                            <li class="hover:bg-brand-pink-light p-3"><a href="#" class="brand-link">MISIONI DHE VISIONI</a></li>
+                            <li class="hover:bg-brand-pink-light p-3"><a href="#" class="brand-link">FAMILJA HIB</a></li> 
+                        </ul>
+                    </li> 
+                    <li><a href="Sherbimet.html" class="brand-link">SHËRBIMET</a></li>
+                    <li><a href="#header" class="brand-link">PIKAT E SHITJES</a></li> 
+                    <li><a href="#" class="brand-link">KONTAKTI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="bg-light-gray py-30">
+        <div class="container px-6 xl:px-0 mx-auto flex justify-between gap-6 items-center">
+            <div class="w-full xl:w-1/2 space-y-8">
+
+                <h1 class="text-3xl lg:text-5xl xl:text-6xl text-brand-blue font-circular">Mirësevini në kompanin <br> <span class="text-brand-pink bg-brand-pink-light px-3 rounded-md">HIB Petrol</span>  </h1>
+                <p>
+                    HIB Petrol është kompani që mirret me transportin dhe shitjen e derivateve të naftës në tërë territorin e <strong> Republikës së Kosovës.</strong>.
+                </p>
+                <div class="flax items-center">
+                    <a href="#" class="btn text-base xl:text-lg">Eksploro trajnimet</a>
+                </div>
+            </div>
+            <div class="w-1 hidden xl:block w-full xl:w-1/2 space-y-8">
+                <img src="./assets/img/Ballina.jpg" alt="HIB Petrol" />
+            </div>
+        </div>
+    </main>
+ 
+    <!-- sherbimet --> 
+    <section class=" py-28">
+        <div class="container px-12 xl:px-0 mx-auto">
+            <hgroup class="hgroup">
+                <h2>HIB ofron keto sherbime </h2>
+            </hgroup>
+            <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-12 ">
+                <div class="card col-span-1 lg:col-span-2 xl:col-span-1 divHover">
+                    <img height="180px" src="./assets/img/derivate.png"/>
+                    <h3>Derivate</h3>
+                    <p>
+                        HIB Petrol sjell derivatet cilësore të cilat mund ti gjeni në të gjitha pikat e shitjes, si dhe depo me shumicë.
+                    </p>
+                    <a href="#" class="btn">Mëso detajet</a>
+                </div> <!-- ./sherbimi -->
+                <div class="card col-span-1 lg:col-span-2 xl:col-span-1">
+                    <img height="180px" src="./assets/img/markete.png"/> 
+                    <h3>Markete</h3>
+                    <p>
+                        Pranë stacioneve të derivateve të HIB Petrol gjinden edhe marketet të cilat ofrojnë produkte të ndryshme ushqimore, higjienike, si dhe produkte për mirëmbajten e veturave.
+                    </p>
+                    <a href="#" class="btn">Mëso detajet</a>
+                </div> <!-- ./sherbimi -->
+                <div class="card col-span-1 lg:col-span-2 xl:col-span-1">
+                    <img height="180px" src="./assets/img/restorant.png"/>
+                    <h3>Restorante</h3>
+                    <p>
+                        Restorantet e HIB Petrol ofrojnë varitet ushqimesh duke filluar nga kuzhina tradicionale shqipëtare me ndikime të kuzhinës europiane.
+                    </p>
+                    <a href="#" class="btn">Mëso detajet</a>
+                </div> <!-- ./sherbimi -->
+                <div class="card col-span-1 lg:col-span-2 xl:col-span-1">
+                    <img height="180px" src="./assets/img/autolarje.png"/>
+                    <h3>Autolarje</h3>
+                    <p>
+                        Varësisht nga kërkesat e klientëve autolarjet ofrojnë: Larje express, Larje e jashtëme, Larje e brendshme, Larje e tërësishme brenda dhe jashtë.
+                    </p>
+                    <a href="#" class="btn">Mëso detajet</a>
+                </div> <!-- ./sherbimi -->
+                <div class="card col-span-1 lg:col-span-2 xl:col-span-1">
+                    <img height="180px" src="./assets/img/kendi-lojrave.png"/>
+                    <h3>Këndi i Lojërave</h3>
+                    <p>
+                        Një hapësirë e dedikuar për më të vegjëlit dhe më të dashurit tanë – fëmijët. Një vend i sigurtë dhe i këndshëm për fëmijët është në HIB Petrol.
+                    </p>
+                    <a href="#" class="btn">Mëso detajet</a>
+                </div> <!-- ./sherbimi -->
+            </div>
+        </div>
+    </section>
+
+     <!-- ABOUT US -->
+
+     <section class="bg-light-gray py-28">
+        <div class="container px-6 xl:px-0 mx-auto">
+            <hgroup class="hgroup">
+                <h2>Më të rejat në <span>HIB PETROL</span></h2>
+            </hgroup>
+            <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
+                <div class="card bg-white text-center">
+                    <img src="./assets/img/risi1.png" alt="">
+                    <div>
+                        <h3>HIB Petrol është destinacioni i preferuar i të gjithëve!</h3>
+                    </div>
+                    <a href="#" class="btn">Më shumë</a>
+
+                </div> <!-- ./risit -->
+                <div class="card bg-white text-center">
+                    <img src="./assets/img/risi2.png" alt="">
+                    <div>
+                        <h3>Sherbimi i mirë, përcillet me buzëqeshje!</h3>
+                    </div>
+                    <a href="#" class="btn">Më shumë</a>
+
+                </div> <!-- ./risit -->
+                <div class="card bg-white text-center">
+                    <img src="./assets/img/risi3.png" alt="">
+                    <div>
+                        <h3>Na vizitoni në pikën tonë më të re në Prizren!</h3>
+                    </div>
+                    <a href="#" class="btn">Më shumë</a>
+
+                </div> <!-- ./risit -->
+                <div class="card bg-white text-center">
+                    <img src="./assets/img/risi4.png" alt="">
+                    <div>
+                        <h3>Në çdo kohë, HIB ju shërben ushqim të freskët!</h3>
+                    </div>
+                    <a href="#" class="btn">Më shumë</a> 
+                </div> <!-- ./risit -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="py-28 bg-light-gray">
+        <div class="container px-6 xl:px-0 mx-auto flex flex-col lg:flex-row flex-wrap justify-between">
+            <div class="w-auto lg:w-full xl:w-2/6 mb-0 lg:mb-20 xl:mb-0 xl:mb-0">
+                <img src="./assets/img/HIB-Logo.png" alt="" class="h-14" />
+                <p class="my-5"
+                    Shkollë digjitale që synon t’i edukojë dhe motivojë të rinjët të kyçen në botën e programimit dhe ndërmarrësisë.>
+                </p>
+                <p class="">
+                    Magjistralja Prishtinë – Ferizaj, km. i 5-të
+                    <br />
+                    Prishtinë 10000 Kosovë
+                    <br />
+                    +383 38 777 777 
+                    <br>
+                    info@hibpetrol.com
+                </p>
+            </div> <!-- ./col -->
+            <div class="">
+                <h3 class="text-xl font-circular text-brand-pink mb-4 mt-6 lg:mt-0">Menu</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="brand-link">BALLINA</a></li>
+                    <li><a href="#" class="brand-link">RRETH NESH</a></li>
+                    <li><a href="#" class="brand-link">SHËRBIMET</a></li>
+                    <li><a href="#" class="brand-link">PIKAT E SHITJES</a></li>
+                </ul>
+            </div> <!-- ./col -->
+            <div class="">
+                <h3 class="text-xl font-circular text-brand-pink mb-4 mt-6 lg:mt-0">About us</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="brand-link">COMPANY</a></li>
+                    <li><a href="#" class="brand-link">AWARDS</a></li>
+                    <li><a href="#" class="brand-link">DATA PROTECTION</a></li>
+                    <li><a href="#" class="brand-link">PRIVACY POLICY</a></li>
+                 </ul>
+            </div> <!-- ./col -->
+            <div class="">
+                <h3 class="text-xl font-circular text-brand-pink mb-4 mt-6 lg:mt-0">Social</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="brand-link"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#" class="brand-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#" class="brand-link"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div> <!-- ./col -->
+        </div>
+    </footer>
+</body>
+</html>
+
+
